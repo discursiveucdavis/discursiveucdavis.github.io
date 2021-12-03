@@ -1,0 +1,111 @@
+.news-and-events-block-float-image-left {
+  float:left;
+}
+.news-and-events-block-title-margin-top-zero{
+/*  margin-top:0 */
+}
+h1 {
+    font-size: 1.45rem;
+}
+.page-node-type-sf-article h1 {
+  margin-top:0
+}
+.panel__title {
+  padding-top:0;
+    font-size: 1.55rem;
+  margin-bottom:0.7em;
+}
+.vm-listing__title {
+    font-size: 0.9rem;
+}
+.vertical-link {
+background-color: #efefef;
+padding-bottom: 2em;
+}
+.node-336 .field__item{width:75%;}
+/* remove article large image */
+.figcaption--left {
+  display:none;
+}
+.path-frontpage div[id^="block-fl"] {
+    border: 2px solid #F18A00;
+}
+h2 {
+    font-size: 1.4rem;
+}
+p{
+  font-size:.95rem;
+}
+/* change embed video to 75% */
+.responsive-embed {
+    max-width: 75%;
+}
+.l-main{
+  padding-top:2px;
+}
+
+/* redesign for the redesign */
+/* make top header consistant with mobile view */
+p{
+    font-size:.95rem;
+  }
+  @media (min-width: 768px){
+  h1 {
+      font-size: 2.15rem;
+  }
+  }
+  .header__bar {
+      background-color: #022851;
+  }
+  .header__navbar {
+      background-color: #dbeaf7;
+      box-shadow:none;
+  }
+  @media (min-width: 992px){
+  /* Adjust fontsizes to smaller - taking off 0.5rem */
+  .page-title {
+      font-size: 2.15rem;
+  }
+  h2 {
+      font-size: 1.4rem;
+  }
+  /* clean up nav bar */
+  
+  .primary-nav__top-link a, .primary-nav__top-link .primary-nav__nolink {
+      color: #022851;
+  }
+  .primary-nav--superfish {
+       box-shadow:none; 
+  }
+  .primary-nav--superfish li:hover>.primary-nav__top-link a, .primary-nav--superfish .sf--hover>.primary-nav__top-link a,
+  .primary-nav--superfish li:hover>.primary-nav__top-link a:before, .primary-nav--superfish .sf--hover>.primary-nav__top-link a:before,
+  .primary-nav--superfish li:hover>.primary-nav__top-link a:after, .primary-nav--superfish .sf--hover>.primary-nav__top-link a:after
+  {
+     background-color:#fde9ac;
+  }
+  .primary-nav a:hover, .primary-nav__nolink:hover,
+  .quick-links__title:hover, .quick-links__title:focus, .quick-links__title:hover:before, .quick-links__title:focus:before {
+      background-color: #fde9ac;
+  }
+  /* change search icon background to grey */
+  .search-popup__open:before, .search-popup__open, .search-popup__open:after,.search-popup__open:focus, 
+  .search-popup__open:hover, .search-popup__open:focus:after, .search-popup__open:focus:before,
+  .search-popup__open:hover:after,.search-popup__open:hover:before   {
+      background-color: #dbeaf7;
+  }
+  .search-popup__open-icon, .quick-links__title, .quick-links__title:before {
+      background-color: #dbeaf7; 
+      color: #022851;
+      font-weight: 700;
+  
+  }
+  /* end @media (min-width: 992px) */
+  }
+  /* fix logo alignment at 1600 */
+  @media (min-width: 1600px){
+      .l-header__branding {
+          padding-right: 4rem;
+          padding-left: 4rem;
+      }
+  }
+  /* end redesign for the redesign */
